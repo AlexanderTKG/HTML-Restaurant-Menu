@@ -74,7 +74,7 @@ nav a:hover {
     margin: 10px;
 }
 
-table {
+.table {
     border: 3px solid black;
     width: 100%;
 }

@@ -1,14 +1,16 @@
-# Activity: Restaurant Menu
+# Project Overview
+Welcome to our restaurant's website – a simple yet elegant implementation showcasing the seamless blend of HTML and CSS.
 
-This project is the basic implementation of useing html and css
+# Homepage
+The homepage features an enticing image displaying the restaurant's name.
 
-On the homepage you'll have a image of the restaurants name
+# Dine-In Experience
+Discover the allure of our dine-in experience by clicking on the "Dine In" button. It seamlessly directs you to the menu page, where a delightful array of culinary offerings awaits. Scroll through the items and their respective prices to plan your perfect dining experience.
 
-You'll see a Dine in Buttom when you click on. It will lead you to the menu page
-Underneath that page it will show you the items and prices of the restaurant menu.
+# About Us
+The 'About' page provides a glimpse into what sets us apart. Explore the unique aspects of our establishment and get to know what we have to offer.
 
-On the about page it will show you a glimmer of what we offer.
+# Contact Us
+For your convenience, we've included all the essential information on the 'Contact' page. Unsure about our operating hours? Find a comprehensive list of the days and times we're open. Additionally, a contact number is provided for direct communication. Whether you're looking to make a reservation or have any inquiries, feel free to reach out.
 
-Dont know when the restaurant opens/closes on the contact page
-We list all the time and days that we're open
-and a phone number if you want to contact the restaurant directly to create a reservation or any concerse you have
+Discover the charm of our restaurant through this well-crafted website – where simplicity meets sophistication.

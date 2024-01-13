@@ -52,17 +52,6 @@ nav a:hover {
     color: darkred;
 }
 
-#banner {
-    width: 100%;
-    height: auto;
-    background-color: white;
-}
-
-#banner img {
-    width: 60%;
-    height: auto;
-}
-
 .service {
     display: inline-block;
     background-color: white;
@@ -83,4 +72,22 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.resize{
+    width:900px;
+    height:auto;
+}
+
+.dine-in-button{
+    background-color: rgba(133, 128, 128, 0.473);
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }

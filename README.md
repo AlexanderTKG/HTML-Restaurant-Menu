@@ -17,13 +17,13 @@ Discover the charm of our restaurant through this well-crafted website – where
 
 
 # Project Information
-## Bata 0.1 [x] Have all the files setup
-## Bata 0.2 [x] writing the code for each page
-## Bata 0.3 [x] adding images to the file
-## Bata 0.4 [x] add css code
-## Bata 0.5 [x] fixing for Bata project date
-## Bata 0.6 [ ] Making the background blend in
-## Bata 0.7 [ ] expand a little more on the about page and homepage
-## Bata 0.8 [ ] Make the tables from the Menu page look more a line pictures
-## Bata 0.9 [ ] Make sure everything works probably and add any changes thats needed
+## Beta 0.1 [x] Have all the files setup
+## Beta 0.2 [x] writing the code for each page
+## Beta 0.3 [x] adding images to the file
+## Beta 0.4 [x] add css code
+## Beta 0.5 [x] fixing for Beta project date
+## Beta 0.6 [ ] Making the background blend in
+## Beta 0.7 [ ] expand a little more on the about page and homepage
+## Beta 0.8 [ ] Make the tables from the Menu page look more a line pictures
+## Beta 0.9 [ ] Make sure everything works probably and add any changes thats needed
 ## Release Version [ ] project finished

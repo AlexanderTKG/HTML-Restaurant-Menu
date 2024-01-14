@@ -1,23 +1,4 @@
 html,
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url(/assets/images/Eat-together.webp);
-    background-repeat: no-repeat, repeat;
-    background-size: cover;
-    text-align: center;
-}
-
-h1,
-h2 {
-    color: darkred;
-}
-
-h3, 
-p,
-li {
-    color: green;
-}
 
 img {
     width: 100%;
@@ -29,6 +10,72 @@ main {
     margin: 0 20%;
 }
 
+.service {
+    display: inline-block;
+    background-color: #FEF6FF;
+    border: 5px solid #AFA8BA;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 2em;
+    padding: 70px;
+    width: 800px;
+    right: 150px;
+    margin: 30px;
+}
+
+
+
+.resize{
+    width:900px;
+    height:auto;
+}
+
+.dine-in-button{
+    background-color: rgba(170, 192, 128, 0.473);
+    color: white;
+    border: none;
+    padding: 40px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.image-box-header {
+    position: absolute;
+    left: 0px;
+    top: -25;
+}
+
+/* background for each page */
+
+.page-1 {
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/images/Eat-together.webp);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.page-2 {
+    background-color: #70793f;
+    text-align: center;
+}
+
+.page-3 {
+    background-color: #70793f;
+    text-align: center;
+}
+
+.page-4 {
+    background-color: #70793f;
+    text-align: center;
+}
+
+/* navbar for each page */
 nav {
     background-color: #d3cfcf;
     padding: 10px;
@@ -55,19 +102,19 @@ nav a:hover {
     color: darkred;
 }
 
-.service {
-    display: inline-block;
-    background-color: #FEF6FF;
-    border: 5px solid #AFA8BA;
-    border-radius: 5px;
+/* text sizes and fonts */
+h1,
+h2 {
     color: darkred;
-    font-size: 2em;
-    padding: 70px;
-    width: 800px;
-    right: 150px;
-    margin: 30px;
 }
 
+h3, 
+p,
+li {
+    color: green;
+}
+
+/* The Table list that shows what typs of food we serve and the price of the item */
 .table {
     border: 3px solid black;
     width: 100%;
@@ -79,26 +126,24 @@ th {
     padding: 5px;
 }
 
-.resize{
-    width:900px;
-    height:auto;
-}
 
-.dine-in-button{
-    background-color: rgba(170, 192, 128, 0.473);
-    color: white;
-    border: none;
-    padding: 40px 80px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 
-.image-box-header {
-    position: absolute;
-    left: 0px;
-    top: -25;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

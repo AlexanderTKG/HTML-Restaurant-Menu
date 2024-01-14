@@ -52,11 +52,9 @@ main {
 /* background for each page */
 
 .page-1 {
-    padding: 0;
     background-image: url(/assets/images/Eat-together.webp);
     background-repeat: no-repeat, repeat;
     background-size: cover;
-    text-align: center;
 }
 
 .page-2 {
@@ -81,11 +79,24 @@ main {
     background-color: #e2dcdc;
     padding-top: 50px;
     padding-bottom: 50px;
-    display: flex;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: horizontal;
     border: 1px solid rgb(173, 168, 168);
 
+}
+
+.footer-column {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: horizontal;
+    color: #70793f;
 }
 
 /* navbar for each page */

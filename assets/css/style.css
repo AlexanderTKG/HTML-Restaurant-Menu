@@ -70,7 +70,7 @@ th {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(/assets/images/Eat-together.webp);
+    background-image: url(/assets/images/hearo-home1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -80,6 +80,9 @@ th {
     text-align: center;
 }
 
+.logo {
+    max-width: 27%;
+}
 
 /* Aboutpage css code will be below here */
 .page-3 {

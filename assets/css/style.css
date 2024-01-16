@@ -30,82 +30,13 @@ main {
     height:auto;
 }
 
-.dine-in-button{
-    background-color: rgba(170, 192, 128, 0.473);
-    color: white;
-    border: none;
-    padding: 40px 80px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
 .image-box-header {
     position: absolute;
     left: 0px;
     top: -25;
 }
 
-/* background for each page */
 
-
-
-.page-2 {
-    background-color: #70793f;
-    text-align: center;
-}
-
-.page-3 {
-    background-color: #70793f;
-    text-align: center;
-}
-
-.page-4 {
-    background-color: #70793f;
-    text-align: center;
-}
-
-/* footer for each page */
-
-
-
-.footer-column {
-    display: block;
-    flex-direction: row;
-    align-items: center;
-    justify-content: horizontal;
-    color: #70793f;
-}
-
-/* navbar for each page */
-nav {
-    background-color: #d3cfcf;
-    padding: 10px;
-    background: transparent;
-}
-
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 1.6em;
-    color: rgb(255, 255, 255);
-    margin-right: 25px;
-}
-
-nav a:hover {
-    color: darkred;
-}
 
 /* text sizes and fonts */
 h1,
@@ -139,11 +70,33 @@ th {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url(/assets/images/Eat-together.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#container {
+#content {
     flex: 1;
+    text-align: center;
 }
+
+
+/* Aboutpage css code will be below here */
+.page-3 {
+    background-color: #70793f;
+    text-align: center;
+}
+/* Contactpage css code will be below here */
+.page-4 {
+    background-color: #70793f;
+    text-align: center;
+}
+/* Menupage css code will be below here */
+.page-2 {
+    background-color: #70793f;
+    text-align: center;
+}
+/* This is for all the Pages below here */
 
 #footer {
     position: sticky;
@@ -155,14 +108,34 @@ th {
 }
 
 
+/* navbar for each page */
+nav {
+    background-color: #d3cfcf;
+    padding: 10px;
+    background: transparent;
+    text-align: left;
+    font-size: 0.95em;
+}
 
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
 
+nav li {
+    display: inline;
+}
 
+nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    margin-right: 25px;
+}
 
-
-
-
-
+nav a:hover {
+    color: darkred;
+}
 
 
 

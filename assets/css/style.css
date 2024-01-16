@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
 html,
 
 img {
@@ -44,8 +47,7 @@ h2 {
     color: darkred;
 }
 
-h3, 
-p,
+h3,
 li {
     color: green;
 }
@@ -77,12 +79,32 @@ th {
 
 #content {
     flex: 1;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
     max-width: 27%;
+    padding: 10px;
+
 }
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 55px;
+    color: #f1f1f1;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+
+
 
 /* Aboutpage css code will be below here */
 .page-3 {
@@ -113,11 +135,12 @@ th {
 
 /* navbar for each page */
 nav {
-    background-color: #d3cfcf;
+    background-color: #000000;
     padding: 10px;
-    background: transparent;
-    text-align: left;
+    opacity: 30%;
     font-size: 0.95em;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
 }
 
 nav ul {
@@ -137,7 +160,7 @@ nav a {
 }
 
 nav a:hover {
-    color: darkred;
+    color: rgb(43, 255, 0);
 }
 
 

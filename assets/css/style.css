@@ -28,10 +28,7 @@ main {
 
 
 
-.resize{
-    width:900px;
-    height:auto;
-}
+
 
 .image-box-header {
     position: absolute;
@@ -44,7 +41,7 @@ main {
 /* text sizes and fonts */
 h1,
 h2 {
-    color: darkred;
+    color: rgb(255, 255, 255);
 }
 
 h3,
@@ -101,28 +98,38 @@ li {
 .page-3 {
     background-color: #adb5b8;
     text-align: center;
+    margin: 0;
 }
 /* Contactpage css code will be below here */
 .page-4 {
     background-color: #adb5b8;
     text-align: center;
+    margin: 0;
 }
 /* Menupage css code will be below here */
 .page-2 {
     background-color: #adb5b8;
     text-align: center;
+    margin: 0;
+    background-image: url(/assets/images/table-in-restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .table {
-    border: 3px solid black;
+    border: 3px solid rgb(255, 255, 255);
     width: 100%;
+    color: #ffffff;
 }
   
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 5px;
 }
+
+tr:hover {background-color: rgba(255, 127, 80, 0.623);}
 /* This is for all the Pages below here */
 
 #footer {
@@ -136,7 +143,10 @@ th {
     opacity: 80%;
 }
 
-
+.resize{
+    width:900px;
+    height:auto;
+}
 /* navbar for each page */
 nav {
     background-color: #5f6a72;

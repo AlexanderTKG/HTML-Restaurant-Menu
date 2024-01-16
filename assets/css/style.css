@@ -53,16 +53,7 @@ li {
 }
 
 /* The Table list that shows what typs of food we serve and the price of the item */
-.table {
-    border: 3px solid black;
-    width: 100%;
-}
-  
-td,
-th {
-    border: 1px solid black;
-    padding: 5px;
-}
+
 
 
 /* Homepage css code will be below here */
@@ -121,6 +112,17 @@ th {
     background-color: #70793f;
     text-align: center;
 }
+
+.table {
+    border: 3px solid black;
+    width: 100%;
+}
+  
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
 /* This is for all the Pages below here */
 
 #footer {
@@ -131,6 +133,7 @@ th {
     padding: 1em;
     bottom: 0;
     font-size: small;
+    opacity: 90%;
 }
 
 

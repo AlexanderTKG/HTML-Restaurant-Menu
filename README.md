@@ -4,9 +4,6 @@ Welcome to our restaurant's website – a simple yet elegant implementation show
 # Homepage
 The homepage features an enticing image displaying the restaurant's name.
 
-# Dine-In Experience
-Discover the allure of our dine-in experience by clicking on the "Dine In" button. It seamlessly directs you to the menu page, where a delightful array of culinary offerings awaits. Scroll through the items and their respective prices to plan your perfect dining experience.
-
 # About Us
 The 'About' page provides a glimpse into what sets us apart. Explore the unique aspects of our establishment and get to know what we have to offer.
 

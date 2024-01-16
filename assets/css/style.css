@@ -99,17 +99,17 @@ li {
 
 /* Aboutpage css code will be below here */
 .page-3 {
-    background-color: #70793f;
+    background-color: #adb5b8;
     text-align: center;
 }
 /* Contactpage css code will be below here */
 .page-4 {
-    background-color: #70793f;
+    background-color: #adb5b8;
     text-align: center;
 }
 /* Menupage css code will be below here */
 .page-2 {
-    background-color: #70793f;
+    background-color: #adb5b8;
     text-align: center;
 }
 
@@ -127,21 +127,21 @@ th {
 
 #footer {
     position: sticky;
-    background-color: #333;
+    background-color: #5f6a72;
     color: white;
     text-align: center;
     padding: 1em;
     bottom: 0;
     font-size: small;
-    opacity: 90%;
+    opacity: 80%;
 }
 
 
 /* navbar for each page */
 nav {
-    background-color: #000000;
+    background-color: #5f6a72;
     padding: 10px;
-    opacity: 30%;
+    opacity: 70%;
     font-size: 0.95em;
     text-align: center;
     font-family: 'Patrick Hand', cursive;

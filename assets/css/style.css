@@ -51,11 +51,7 @@ main {
 
 /* background for each page */
 
-.page-1 {
-    background-image: url(/assets/images/Eat-together.webp);
-    background-repeat: no-repeat, repeat;
-    background-size: cover;
-}
+
 
 .page-2 {
     background-color: #70793f;
@@ -74,22 +70,7 @@ main {
 
 /* footer for each page */
 
-.footer-light-gray {
-    color: lightgray;
-    background-color: #e2dcdc;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: block;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 1.5;
-    flex-direction: row;
-    align-items: center;
-    justify-content: horizontal;
-    border: 1px solid rgb(173, 168, 168);
 
-}
 
 .footer-column {
     display: block;
@@ -151,11 +132,27 @@ th {
 }
 
 
+/* Homepage css code will be below here */
+.page-1 {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+#container {
+    flex: 1;
+}
 
-
-
-
+#footer {
+    position: sticky;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+}
 
 
 

@@ -86,7 +86,7 @@ li {
     text-align: center;
     font-size: 55px;
     color: #f1f1f1;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 
@@ -100,6 +100,48 @@ li {
     text-align: center;
     margin: 0;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card-title {
+    color: gray;
+}
+
+.about-title {
+    border-bottom: 2px solid #849099;
+    font-family: 'Dancing Script', cursive;
+}
+
+.Name-title {
+    font-family: 'Dancing Script', cursive;
+}
+
 /* Contactpage css code will be below here */
 .page-4 {
     background-color: #adb5b8;
@@ -144,7 +186,7 @@ tr:hover {background-color: rgba(255, 127, 80, 0.623);}
 }
 
 .resize{
-    width:900px;
+    width:600px;
     height:auto;
 }
 /* navbar for each page */

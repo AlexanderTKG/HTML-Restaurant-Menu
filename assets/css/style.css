@@ -13,6 +13,10 @@ main {
     margin: 0 20%;
 }
 
+p {
+    font-family: 'Dancing Script', cursive;
+}
+
 .service {
     display: inline-block;
     background-color: #FEF6FF;
@@ -174,6 +178,20 @@ map-cite::after {
     border-radius: 8px;
     z-index: -1;
 }
+
+.phone-icon::before {
+    content: '\260E'; /* Unicode character for a phone icon */
+    font-family: Arial, sans-serif; /* Use a font that supports the phone icon Unicode character */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #0e9c5a; /* Set the color of the icon */
+    margin-right: 5px; /* Add some spacing if needed */
+  }
+
+
+.contact-title{
+    border-bottom: 2px solid #849099;
+    font-family: 'Dancing Script', cursive;
+}  
 /* Menupage css code will be below here */
 .page-2 {
     background-color: #adb5b8;

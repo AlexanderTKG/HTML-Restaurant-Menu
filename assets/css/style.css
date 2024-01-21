@@ -76,10 +76,8 @@ li {
     justify-content: center;
 }
 
-.logo {
-    max-width: 27%;
-    padding: 10px;
-
+.logo-img {
+    max-width: 0.9%;
 }
 
 .welcome {

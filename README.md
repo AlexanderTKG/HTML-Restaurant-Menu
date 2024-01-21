@@ -20,7 +20,7 @@ Discover the charm of our restaurant through this well-crafted website – where
 ## Beta 0.4 [x] add css code
 ## Beta 0.5 [x] fixing for Beta project date
 ## Beta 0.6 [x] Making the background blend in
-## Beta 0.7 [ ] expand a little more on the about page
+## Beta 0.7 [x] expand a little more on the about page
 ## Beta 0.8 [ ] Make the tables from the Menu page look more a line pictures
 ## Beta 0.9 [ ] Make sure everything works probably and add any changes thats needed
 ## Release Version [ ] project finished

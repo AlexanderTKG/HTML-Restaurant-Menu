@@ -13,7 +13,7 @@ For your convenience, we've included all the essential information on the 'Conta
 Discover the charm of our restaurant through this well-crafted website – where simplicity meets sophistication.
 
 
-# Project Information
+# Project Goals and Objectives
 ## Beta 0.1 [x] Have all the files setup
 ## Beta 0.2 [x] writing the code for each page
 ## Beta 0.3 [x] adding images to the file

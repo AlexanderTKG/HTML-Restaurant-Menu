@@ -144,13 +144,14 @@ li {
 
 /* Contactpage css code will be below here */
 .page-4 {
-    background-color: #adb5b8;
-    text-align: center;
     margin: 0;
     padding: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    
+    background-color: #adb5b8;
 }
 /* Menupage css code will be below here */
 .page-2 {
@@ -179,7 +180,7 @@ tr:hover {background-color: rgba(255, 127, 80, 0.623);}
 /* This is for all the Pages below here */
 
 #footer {
-    position: sticky;
+    position: fixed;
     background-color: #5f6a72;
     color: white;
     text-align: center;
@@ -187,6 +188,7 @@ tr:hover {background-color: rgba(255, 127, 80, 0.623);}
     bottom: 0;
     font-size: small;
     opacity: 80%;
+    width: 100%;
 }
 
 .resize{

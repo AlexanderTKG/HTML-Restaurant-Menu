@@ -144,14 +144,35 @@ li {
 
 /* Contactpage css code will be below here */
 .page-4 {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
+    background-color: #adb5b8;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     text-align: center;
-    
-    background-color: #adb5b8;
+}
+
+.contact-info {
+    border-bottom: 2px solid #849099;
+    font-family: 'Dancing Script', cursive;
+    flex: 1;
+}
+
+#map-cite {
+    position: relative;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+map-cite::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #ff7f50, #333);
+    border-radius: 8px;
+    z-index: -1;
 }
 /* Menupage css code will be below here */
 .page-2 {
@@ -180,7 +201,7 @@ tr:hover {background-color: rgba(255, 127, 80, 0.623);}
 /* This is for all the Pages below here */
 
 #footer {
-    position: fixed;
+    position: sticky;
     background-color: #5f6a72;
     color: white;
     text-align: center;
@@ -188,7 +209,6 @@ tr:hover {background-color: rgba(255, 127, 80, 0.623);}
     bottom: 0;
     font-size: small;
     opacity: 80%;
-    width: 100%;
 }
 
 .resize{
